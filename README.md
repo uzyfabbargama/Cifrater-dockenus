@@ -161,3 +161,19 @@ uziel_gamma@uziel-PCINUX:~/docker$
 
 #me encanta
 ```
+
+entramos al contenedor 
+
+bash
+```
+sudo docker run -it --entrypoint /bin/sh cifrador-txt
+```
+descargamos el paquete de vim (justo no puedo sacar foto, pero es casi como usar pkg en termux o un aot en lubuntu o un snap en mint)
+
+bash
+```
+apk add vim #(en Alpine)
+#o también 
+apt-get update && apt-get install vim #(en Ubuntu/Debian).
+```
+
